@@ -1,4 +1,5 @@
-import { Box, keyframes } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
+import { keyframes } from "@emotion/react";
 import { GiBee } from "react-icons/gi";
 import { useEffect, useState } from "react";
 
@@ -21,8 +22,8 @@ const AnimatedBackground = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setVisible(false);
-      setTimeout(() => setVisible(true), 20000); 
-    }, 25000); 
+      setTimeout(() => setVisible(true), 20000);
+    }, 25000);
     return () => clearInterval(interval);
   }, []);
 
