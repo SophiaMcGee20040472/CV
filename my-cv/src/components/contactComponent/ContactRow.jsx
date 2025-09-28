@@ -25,7 +25,7 @@ const ContactRow = ({ icon, label, value, href, accentColor, hoverColor }) => {
       color={accentColor}
       _hover={{ color: hoverColor, transform: "translateX(6px)" }}
     >
-      <Box mb="4px" ml={{ base: "20%", lg: "15%" }}>
+      <Box mb="4px" ml={{ base: "4%", lg: "15%" }}>
         {icon}
       </Box>
       <Box textAlign="left" ml={2}>
