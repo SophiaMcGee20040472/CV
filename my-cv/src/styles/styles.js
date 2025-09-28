@@ -229,11 +229,13 @@ export const styles = {
     fontWeight: "extrabold",
     color: "#D53F8C",
     letterSpacing: "wide",
+    ml: "12px",
   },
   mobileSubtitleText: {
     fontSize: "xs",
     color: "gray.300",
     fontStyle: "italic",
+    ml: "12px",
   },
   earlybirdsIconMobile: {
     color: "#D53F8C",

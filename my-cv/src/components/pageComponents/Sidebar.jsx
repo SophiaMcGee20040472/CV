@@ -57,7 +57,7 @@ const Sidebar = () => {
               as={IconButton}
               icon={<HamburgerIcon />}
               variant="outline"
-              colorScheme="whiteAlpha"
+              colorScheme="white"
               aria-label="Navigation Menu"
             />
             <MenuList {...styles.menuList}>
