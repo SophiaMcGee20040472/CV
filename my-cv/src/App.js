@@ -12,6 +12,7 @@ import SkillsPage from "./pages/SkillsPage";
 import ExperiencePage from "./pages/ExperiencePage";
 import HobbiesPage from "./pages/HobbiesPage";
 import ContactPage from "./pages/ContactPage";
+import Breadcrumbs from "./components/ui-components/Breadcrumb";
 
 import {
   contacts,
@@ -27,11 +28,13 @@ function App() {
     <Router>
       <Flex>
         <Sidebar />
-        <Box flex="1" p={4} ml={{ md: "250px", lg: "400px" }}>
+        <Box flex="1" p={4} ml={{ base: 0, md: "250px", lg: "400px" }}>
+          <Breadcrumbs />
           <Routes>
             <Route path="/" element={<Navigate to="/home" />} />
             <Route path="/home" element={<HomePage />} />
-            <Route path="/education"
+            <Route
+              path="/education"
               element={<EducationPage educationData={educationData} />}
             />
             <Route

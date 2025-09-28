@@ -338,14 +338,12 @@ export const skillsData = {
       title: "AI/ML & Data",
       items: [
         { label: "AI Models", value: "ChatGPT, Gemini, Mistral, Claude" },
-        { label: "AI Assistants", value: "GitHub Copilot, CodeWhisperer" },
-        { label: "Frameworks", value: "TensorFlow" },
+        { label: "AI Assistants", value: "GitHub Copilot, tabnine" },
       ],
     },
   ],
   additionalSkills: [
-    { label: "CS Fundamentals", value: "Algorithms, Data Structures, OOP" },
-    { label: "Graphic Design", value: "Adobe Creative Suite" },
-    { label: "Data-Driven Design", value: "A/B Testing, Analytics" },
+    { label: "CS Fundamentals", value: "Object Orientated Programming" },
+    { label: "Graphic Design", value: "Adobe Creative Suite, figma, Canva" },
   ],
 };
