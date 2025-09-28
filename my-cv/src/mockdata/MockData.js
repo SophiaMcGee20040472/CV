@@ -263,7 +263,7 @@ export const hobbies = [
       "Pop Music",
       "Musical Theatre",
       "Karaoke Nights",
-      "Competitions",
+      "Competition",
     ],
   },
   {
@@ -283,7 +283,7 @@ export const hobbies = [
     list: [
       "Safety Training",
       "Target Practice",
-      "Competitions",
+      "Competition",
       "Strength & Focus",
       "Fun with Friends",
     ],
