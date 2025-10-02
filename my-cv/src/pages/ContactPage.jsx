@@ -10,7 +10,7 @@ const ContactCard = () => {
   const hoverColor = "gray.700";
 
   return (
-    <Flex sx={styles.FlexStyle} direction="column" align="center" >
+    <Flex sx={styles.FlexStyle} direction="column" align="center">
       <GradientHeading>Contact Details</GradientHeading>
       <Box sx={styles.BoxStyle}>
         <Flex justify="center" mb={4}>

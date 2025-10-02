@@ -56,7 +56,7 @@ const Profile = () => {
         </Stack>
       </Box>
       <Box px={{ base: 4, md: 12 }} mb={{ base: 16, md: 24 }}>
-        <Text sx={styles.skillsTitle}>Soft Skills</Text>
+        <Text sx={styles.skillsTitle} ml='15px'>Soft Skills</Text>
         <SimpleGrid columns={{ base: 1, md: 2 }} spacing={6}>
           {softSkillsData.map((skill, index) => (
             <Box key={index} sx={styles.skillCard}>
